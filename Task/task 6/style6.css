@@ -1,0 +1,126 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    padding-top: 1%;
+    letter-spacing: 2ch;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.order {
+    width: 100%;
+    color: white;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+
+
+}
+
+body {
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-image: url("https://th.bing.com/th/id/OIP.WXOyi2RkWruFvwKiO-y6ewHaEK?w=291&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-position: center;
+
+    background-size: cover;
+
+    margin-top: 10px;
+}
+
+label {
+
+    display: inline-block;
+    width: 200px;
+}
+
+.product label {
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    margin-right: 1%;
+
+}
+
+.product {
+    height: auto;
+
+    border-width: 1px;
+    margin-top: 3%;
+    margin-left: 9%;
+    width: 78%;
+    border-color: white;
+    border-style: solid;
+    padding: 1%;
+    background-color: rgba(6, 99, 88, 0.93);
+
+
+}
+
+
+.sub {
+
+    color: white;
+    margin-left: 18%;
+    background-color: cyan;
+}
+
+.reset {
+    color: white;
+    background-color: darkgoldenrod;
+
+}
+
+input {
+    color: white;
+    border-color: white;
+    margin: 1%;
+    padding: 3px;
+    background: transparent;
+    width: 280px;
+}
+
+a {
+    color: brown;
+}
+
+
+input::placeholder {
+    padding-left: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.phone {
+    width: 4%;
+}
+
+.address {
+    width: 820px;
+}
+
+.number {
+    width: 190px;
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 120px;
+    padding: 3px;
+    border: 0ch;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+}

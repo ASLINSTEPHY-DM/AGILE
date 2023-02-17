@@ -1,0 +1,38 @@
+#contain {
+    background-color: lightgrey;
+    width: 90%;
+    margin: 3%;
+    margin-top: 2%;
+    min-height:600px;
+    padding: 2%;
+}
+.cal {
+    width: 130px;
+    height:130px;
+    margin-top:200px;
+    background-color:lightsalmon;
+    float: right;
+}
+#contain.cal {
+    position:absolute;
+    left: calc(400px + 500px);
+    top: calc(100px + 100px);
+}
+.one{
+    height: 150px;
+    width: 5px;
+    background-color: black;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 1385px;
+    top: 250px;
+}
+.two{
+    height: 150px;
+    width: 5px;
+    background-color: black;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 1385px;
+    top: 250px;
+}
