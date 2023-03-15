@@ -1,0 +1,159 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+}
+  .box {   
+padding: 2%;
+box-sizing: border-box;
+background-color: lightgray;
+width: 60%;
+height: 460px;
+
+}
+.a{
+width: 24%;
+background-color: red;
+min-height: 60px;
+float: left;
+display: block;
+justify-content: space-between;
+}
+.b{
+width: 72%;
+margin-left: 3%;
+min-height: 60px;
+background-color: blue;
+float: left;
+}
+.c{
+background-color:goldenrod;
+width: 100%;
+min-height: 100px;
+float: left;
+margin-top: 10px;
+}
+.d{
+background-color: chartreuse;
+width: 31%;
+
+float:left;
+margin-top: 10px;
+min-height: 60px;
+}
+.e{
+background-color:darkmagenta;
+width: 32%;
+margin-left: 2%;
+float:left;
+margin-top: 10px;
+min-height: 60px;
+
+}
+.f{
+background-color:blueviolet;
+width: 33%;
+margin-left: 2%;
+float:left;
+margin-top: 10px;
+min-height: 60px;
+
+}
+.g{
+background-color:coral;
+width: 49%;
+float:left;
+margin-top: 10px;
+min-height: 60px;
+}
+.h{
+background-color:darkkhaki;
+width: 49%;
+margin-left: 2%;
+float:left;
+margin-top: 10px;
+min-height: 60px;
+
+}
+.i{
+background-color:green;
+width: 25%;
+float:left;
+margin-top: 10px;
+min-height: 40px;
+}
+.j{
+background-color:cadetblue;
+width: 24%;margin-left: 1%;
+float:left;
+margin-top: 10px;
+min-height: 40px;
+
+}
+.k{
+background-color:brown;
+width: 24%;margin-left: 1%;
+float:left;
+margin-top: 10px;
+min-height: 40px;
+
+}
+.l{
+background-color:blue;
+width: 24%;margin-left: 1%;
+float:left;
+margin-top: 10px;
+min-height: 40px;
+
+}
+.m{
+background-color:black;
+width: 100%;
+float:left;
+margin-top: 10px;
+min-height: 20px;
+}
+@media only screen and (max-width:800px) {
+.c,.d,.e,.f,.g,.h{
+  width: 99%;
+  margin: 1%;
+}
+.i,.j{
+  width: 48%;
+  margin:1% ;
+}
+.l,.k{
+  width: 48%;
+  margin: 1%;
+}
+.m{
+  margin:  1%;
+}
+.a{
+  margin-left: 1%;
+}
+.box{
+  height: fit-content;
+}
+}
+@media only screen and (max-width:500px){
+.a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.l,.k,.l,.m{
+  
+  width: 99%;
+  margin: 1%;
+  
+}
+.box{
+  width: 100%;
+  height: fit-content;
+}
+}
